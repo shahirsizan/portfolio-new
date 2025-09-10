@@ -1,3 +1,5 @@
+import profilepic from "./assets/about/bg-removed_IMG_4377.png";
+
 // Skills Section Logo's
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
@@ -8,29 +10,19 @@ import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
 import appwritelogo from "./assets/tech_logo/appwrite-logo.png";
 import clerklogo from "./assets/tech_logo/clerk-logo.png";
 import convexlogo from "./assets/tech_logo/convex-logo.png";
 import cloudinarylogo from "./assets/tech_logo/cloudinary-logo.png";
 
-import cLogo from "./assets/tech_logo/c.png";
-import cppLogo from "./assets/tech_logo/cpp.png";
-import javaLogo from "./assets/tech_logo/java.png";
-import pythonLogo from "./assets/tech_logo/python.png";
-import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
-import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
-import mcLogo from "./assets/tech_logo/mc.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
-import postgreLogo from "./assets/tech_logo/postgre.png";
-import csharpLogo from "./assets/tech_logo/csharp.png";
 
 // Experience
 import webverseLogo from "./assets/company_logo/webverse_logo.png";
-import agcLogo from "./assets/company_logo/agc_logo.png";
-import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 import thinklogo from "./assets/company_logo/thinklogo.png";
 
 // Education
@@ -46,23 +38,27 @@ import taskremLogo from "./assets/work_logo/task_rem.png";
 import npmLogo from "./assets/work_logo/npm.png";
 import webverLogo from "./assets/work_logo/web_dig.png";
 
+export const profilepicObj = {
+	profilepic,
+};
+
 export const SkillsInfo = [
 	{
 		title: "Frontend",
 		skills: [
 			{ name: "HTML", logo: htmlLogo },
 			{ name: "CSS", logo: cssLogo },
-			{ name: "JavaScript", logo: javascriptLogo },
-			{ name: "React JS", logo: reactjsLogo },
-			{ name: "Tailwind CSS", logo: tailwindcssLogo },
+			{ name: "JS", logo: javascriptLogo },
+			{ name: "React", logo: reactjsLogo },
+			{ name: "Tailwind", logo: tailwindcssLogo },
 		],
 	},
 	{
 		title: "Backend",
 		skills: [
-			{ name: "Node JS", logo: nodejsLogo },
-			{ name: "Express JS", logo: expressjsLogo },
-			{ name: "PostgreSQL", logo: postgreLogo },
+			{ name: "Node", logo: nodejsLogo },
+			{ name: "Express", logo: expressjsLogo },
+			{ name: "Postgres", logo: postgreLogo },
 			{ name: "MongoDB", logo: mongodbLogo },
 			{ name: "Clerk", logo: clerklogo },
 			{ name: "Appwrite", logo: appwritelogo },
@@ -71,25 +67,10 @@ export const SkillsInfo = [
 		],
 	},
 	{
-		title: "Languages",
-		skills: [
-			{ name: "C", logo: cLogo },
-			{ name: "C++", logo: cppLogo },
-			{ name: "Java", logo: javaLogo },
-			{ name: "Python", logo: pythonLogo },
-			{ name: "C-Sharp", logo: csharpLogo },
-			{ name: "JavaScript", logo: javascriptLogo },
-			{ name: "TypeScript", logo: typescriptLogo },
-		],
-	},
-	{
 		title: "Tools",
 		skills: [
 			{ name: "Git", logo: gitLogo },
-			{ name: "GitHub", logo: githubLogo },
-			{ name: "VS Code", logo: vscodeLogo },
 			{ name: "Postman", logo: postmanLogo },
-			{ name: "Compass", logo: mcLogo },
 			{ name: "Vercel", logo: vercelLogo },
 		],
 	},
