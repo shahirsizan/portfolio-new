@@ -3,9 +3,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import Work from "./components/Work";
 import Education from "./components/Education";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,9 +14,7 @@ function App() {
 				<About />
 				<Skills />
 				<Experience />
-				<Work />
 				<Education />
-				<Contact />
 				<Footer />
 			</div>
 		</div>
