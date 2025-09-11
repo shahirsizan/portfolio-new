@@ -27,7 +27,7 @@ const Education = () => {
 							className={`w-full p-5 lg:p-10 border border-gray-700 bg-gray-900/70 rounded-2xl shadow-2xl cursor-pointer hover:shadow-purple-500/30`}
 						>
 							<div className="flex items-center space-x-6">
-								<div className="w-20 md:w-24 rounded-md overflow-hidden">
+								<div className="flex-shrink-0 w-14 lg:w-20">
 									<img
 										src={edu.img}
 										className="w-full h-full object-contain"
@@ -36,15 +36,15 @@ const Education = () => {
 
 								<div className="flex flex-col justify-between">
 									<div>
-										<h3 className="text-2xl xl:text-3xl font-semibold text-gray-100">
+										<h3 className="text-xl lg:text-3xl font-semibold text-gray-100">
 											{edu.degree}
 										</h3>
-										<h4 className="text-md xl:text-xl font-semibold text-gray-100">
+										<h4 className="text-md lg:text-xl font-semibold text-gray-100">
 											{edu.school}
 										</h4>
 									</div>
 
-									<p className="text-sm xl:text-lg font-semibold text-gray-100 mt-2">
+									<p className="text-sm lg:text-lg font-semibold text-gray-100 mt-2">
 										{edu.date}
 									</p>
 								</div>

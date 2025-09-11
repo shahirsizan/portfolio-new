@@ -1,6 +1,5 @@
 import profilepic from "./assets/about/bg-removed_IMG_4377.png";
 
-// Skills Section Logo's
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
@@ -29,6 +28,12 @@ import thinklogo from "./assets/company_logo/thinklogo.png";
 import cuetlogo from "./assets/education_logo/cuet-logo.png";
 import dclogo from "./assets/education_logo/dc-logo.png";
 import glablogo from "./assets/education_logo/glab-logo.png";
+
+// certificates
+import cuetcertlogo from "./assets/certificates/cuet.png";
+import hkustcertlogo from "./assets/certificates/hkust2.png";
+import ibmcertlogo from "./assets/certificates/ibm.png";
+import metacertlogo from "./assets/certificates/meta.png";
 
 // Projects
 import khabarbariimage from "./assets/work_logo/khabar-bari-ss.png";
@@ -152,6 +157,57 @@ export const education = [
 		grade: "5.00",
 		discipline: "Science",
 		degree: "SSC",
+	},
+];
+
+export const certificates = [
+	{
+		id: 0,
+		img: hkustcertlogo,
+		name: "Software Engineering",
+		date: "2023",
+		institute: "The Hong Kong University of Science and Technology",
+		link: "https://www.coursera.org/account/accomplishments/specialization/N574PGMHZP6K",
+	},
+	{
+		id: 1,
+		img: ibmcertlogo,
+		name: "Introduction to Agile Development and Scrum",
+		date: "2024",
+		institute: "IBM",
+		link: "https://www.coursera.org/account/accomplishments/verify/897XC9Q87PEA",
+	},
+	{
+		id: 2,
+		img: metacertlogo,
+		name: "HTML and CSS in depth",
+		date: "2024",
+		institute: "Meta",
+		link: "https://www.coursera.org/account/accomplishments/verify/6DA46QCW6UL3",
+	},
+	{
+		id: 3,
+		img: metacertlogo,
+		name: "React Basics",
+		date: "2024",
+		institute: "Meta",
+		link: "https://www.coursera.org/account/accomplishments/verify/6BFM33TRVXVA",
+	},
+	{
+		id: 4,
+		img: metacertlogo,
+		name: "Advanced React",
+		date: "2024",
+		institute: "Meta",
+		link: "https://www.coursera.org/account/accomplishments/verify/KUKVFP39SB33",
+	},
+	{
+		id: 5,
+		img: metacertlogo,
+		name: "Introduction to Databases",
+		date: "2024",
+		institute: "Meta",
+		link: "https://www.coursera.org/account/accomplishments/verify/FER9WX7BSNDY",
 	},
 ];
 

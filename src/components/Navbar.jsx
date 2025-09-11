@@ -21,6 +21,7 @@ const Navbar = () => {
 		{ id: "experience", label: "Experience" },
 		{ id: "work", label: "Projects" },
 		{ id: "education", label: "Education" },
+		{ id: "certificates", label: "Certificates" },
 	];
 
 	return (
@@ -76,7 +77,7 @@ const Navbar = () => {
 
 			{/* Mobile Menu Items */}
 			{isOpen && (
-				<div className="md:hidden absolute top-18 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414]/70 backdrop-blur-3xl z-50 rounded-lg shadow-md ">
+				<div className="md:hidden absolute top-18 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414]/90 backdrop-blur-3xl z-50 rounded-lg shadow-xl ">
 					<ul className="flex flex-col items-center space-y-4 py-4 text-gray-100">
 						{menuItems.map((item) => (
 							<li
