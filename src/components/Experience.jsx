@@ -5,7 +5,7 @@ const Experience = () => {
 	return (
 		<section
 			id="experience"
-			className="py-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
+			className="pt-16 pb-24 xl:pb-32 md:pt-24 px-[5vw] md:px-[8vw] lg:px-[12vw] bg-violet-950/10"
 		>
 			{/* TITLE */}
 			<div className="text-center mb-16">
@@ -18,13 +18,14 @@ const Experience = () => {
 			{/* Container */}
 			<div
 				id="container"
-				className="flex flex-wrap justify-between gap-3 "
+				className="grid grid-cols-1 xl:grid-cols-[1fr_3fr_1fr] gap-3"
 			>
-				{experiences.map((experience) => (
+				{experiences.map((experience, idx) => (
 					// Content box
 					<div
+						key={idx}
 						id="content box"
-						className={`w-full lg:max-w-[30%] p-2 lg:p-4 rounded-2xl shadow-2xl border border-gray-700 bg-gray-900 backdrop-blur-md `}
+						className={`w-full xl:col-start-2 p-2 lg:p-4 rounded-2xl shadow-2xl border border-gray-700 bg-gray-900 backdrop-blur-md`}
 					>
 						{/* Company Logo, name, role & date */}
 						<div className="flex items-center space-x-5">

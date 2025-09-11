@@ -5,7 +5,7 @@ const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="py-24 pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
+			className="pt-16 md:pt-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
 		>
 			{/*  TITLE */}
 			<div className="text-center">
@@ -16,19 +16,20 @@ const Skills = () => {
 			</div>
 
 			{/* SKILLS OUTER BOXES */}
-			<div className="flex flex-wrap gap-1 lg:gap-5 py-10 justify-between">
+			<div className="flex flex-wrap items-start gap-1 lg:gap-5 pt-10 justify-around">
+				{/* <div className="flex flex-wrap items-start gap-1 lg:gap-5 pt-10 justify-around"> */}
+
 				{SkillsInfo.map((category) => (
 					<div
 						key={category.title}
-						className="bg-gray-900 px-3 md:px-5 py-6 md:py-10 mb-10 w-full sm:w-[48%] rounded-2xl border border-white 
-          shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]"
+						className="bg-gray-900 px-3 md:px-5 py-6 md:py-10 mb-10 w-full xl:w-[30%] rounded-2xl border border-gray-700 shadow-gray-800 shadow-md"
 					>
 						<h3 className="text-2xl lg:text-3xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
 							{category.title}
 						</h3>
 
 						{/* SKILLS INNER BOXES */}
-						<div className="grid grid-cols-2 gap-2 xl:gap-3 w-full">
+						<div className="grid md:grid-cols-3 xl:grid-cols-1 gap-2 xl:gap-3 w-full">
 							{category.skills.map((skill) => (
 								<div
 									key={skill.name}
@@ -38,7 +39,7 @@ const Skills = () => {
 										src={skill.logo}
 										className="w-6 h-6 sm:w-8 sm:h-8"
 									/>
-									<span className="text-xs md:text-md xl:text-[18px] text-gray-300">
+									<span className="text-xs xl:text-[16px] text-gray-300">
 										{skill.name}
 									</span>
 								</div>

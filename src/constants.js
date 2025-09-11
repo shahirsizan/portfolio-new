@@ -31,6 +31,7 @@ import dclogo from "./assets/education_logo/dc-logo.png";
 import glablogo from "./assets/education_logo/glab-logo.png";
 
 // Projects
+import khabarbariimage from "./assets/work_logo/khabar-bari-ss.png";
 import githubdetLogo from "./assets/work_logo/github_det.png";
 import csprepLogo from "./assets/work_logo/cs_prep.png";
 import movierecLogo from "./assets/work_logo/movie_rec.png";
@@ -86,24 +87,42 @@ export const experiences = [
 		desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
 		skills: ["Software Development Life Cycle", "Agile Framework"],
 	},
-	{
-		id: 1,
-		img: thinklogo,
-		role: "Industrial Attachment",
-		company: "THiNK Ltd",
-		date: "2022 (Duration: One month)",
-		desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
-		skills: ["Software Development Life Cycle", "Agile Framework"],
-	},
-	{
-		id: 2,
-		img: thinklogo,
-		role: "Industrial Attachment",
-		company: "THiNK Ltd",
-		date: "2022 (Duration: One month)",
-		desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
-		skills: ["Software Development Life Cycle", "Agile Framework"],
-	},
+	// {
+	// 	id: 1,
+	// 	img: thinklogo,
+	// 	role: "Industrial Attachment",
+	// 	company: "THiNK Ltd",
+	// 	date: "2022 (Duration: One month)",
+	// 	desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
+	// 	skills: ["Software Development Life Cycle", "Agile Framework"],
+	// },
+	// {
+	// 	id: 2,
+	// 	img: thinklogo,
+	// 	role: "Industrial Attachment",
+	// 	company: "THiNK Ltd",
+	// 	date: "2022 (Duration: One month)",
+	// 	desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
+	// 	skills: ["Software Development Life Cycle", "Agile Framework"],
+	// },
+	// {
+	// 	id: 3,
+	// 	img: thinklogo,
+	// 	role: "Industrial Attachment",
+	// 	company: "THiNK Ltd",
+	// 	date: "2022 (Duration: One month)",
+	// 	desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
+	// 	skills: ["Software Development Life Cycle", "Agile Framework"],
+	// },
+	// {
+	// 	id: 4,
+	// 	img: thinklogo,
+	// 	role: "Industrial Attachment",
+	// 	company: "THiNK Ltd",
+	// 	date: "2022 (Duration: One month)",
+	// 	desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
+	// 	skills: ["Software Development Life Cycle", "Agile Framework"],
+	// },
 ];
 
 export const education = [
@@ -139,20 +158,18 @@ export const education = [
 export const projects = [
 	{
 		id: 0,
-		title: "Khabar Bari",
-		description:
-			"A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-		image: githubdetLogo,
+		title: "Khabar Bari (Bkash integrated)",
+		description: "Khabar Bari description",
+		image: khabarbariimage,
 		tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
 		github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
 		webapp: "https://githubprofiledetective.netlify.app/",
 	},
 	{
 		id: 1,
-		title: "CS Prep",
-		description:
-			"A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-		image: csprepLogo,
+		title: "Image Background Remover (Bkash integrated)",
+		description: "Image Background Remover description",
+		image: khabarbariimage,
 		tags: [
 			"React JS",
 			"Node.js",
@@ -167,42 +184,29 @@ export const projects = [
 	},
 	{
 		id: 2,
-		title: "Movie Recommendation App",
-		description:
-			"A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-		image: movierecLogo,
+		title: "Weather App (Vanilla JS)",
+		description: "Weather App (Vanilla JS) description",
+		image: khabarbariimage,
 		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
 		github: "https://github.com/codingmastr/Movie-Recommendation-App",
 		webapp: "https://movie-recommendation-app-jet.vercel.app/",
 	},
 	{
 		id: 3,
-		title: "Email Validator NPM Package",
-		description:
-			"An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-		image: npmLogo,
-		tags: ["React JS", "Node.js", "NPM", "Validation"],
-		github: "https://github.com/codingmastr/cmtk-email-validator",
-		webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+		title: "Instagram Clone (Basic features) (React Native)",
+		description: "Weather App (Vanilla JS) description",
+		image: khabarbariimage,
+		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+		github: "https://github.com/codingmastr/Movie-Recommendation-App",
+		webapp: "https://movie-recommendation-app-jet.vercel.app/",
 	},
 	{
 		id: 4,
-		title: "Task Reminder Chrome Extension Tool",
-		description:
-			"A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-		image: taskremLogo,
-		tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-		github: "https://github.com/codingmastr/Task-Reminder-Tool",
-		webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-	},
-	{
-		id: 5,
-		title: "Webverse Digital",
-		description:
-			"The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-		image: webverLogo,
-		tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-		github: "https://github.com/codingmastr/Webverse-Digital",
-		webapp: "https://webversedigital.com/",
+		title: "Blog App (Microservice architecture)",
+		description: "Blog App (Microservice architecture) description",
+		image: khabarbariimage,
+		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+		github: "https://github.com/codingmastr/Movie-Recommendation-App",
+		webapp: "https://movie-recommendation-app-jet.vercel.app/",
 	},
 ];
