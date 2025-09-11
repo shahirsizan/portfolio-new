@@ -14,10 +14,10 @@ import postgreLogo from "./assets/tech_logo/postgre.png";
 import appwritelogo from "./assets/tech_logo/appwrite-logo.png";
 import clerklogo from "./assets/tech_logo/clerk-logo.png";
 import convexlogo from "./assets/tech_logo/convex-logo.png";
+import neondblogo from "./assets/tech_logo/neondb-logo.png";
 import cloudinarylogo from "./assets/tech_logo/cloudinary-logo.png";
 
 import gitLogo from "./assets/tech_logo/git.png";
-import vscodeLogo from "./assets/tech_logo/vscode.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 
@@ -32,12 +32,6 @@ import glablogo from "./assets/education_logo/glab-logo.png";
 
 // Projects
 import khabarbariimage from "./assets/work_logo/khabar-bari-ss.png";
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
 
 export const profilepicObj = {
 	profilepic,
@@ -51,6 +45,7 @@ export const SkillsInfo = [
 			{ name: "CSS", logo: cssLogo },
 			{ name: "JS", logo: javascriptLogo },
 			{ name: "React", logo: reactjsLogo },
+			{ name: "React Native", logo: reactjsLogo },
 			{ name: "Tailwind", logo: tailwindcssLogo },
 		],
 	},
@@ -64,6 +59,7 @@ export const SkillsInfo = [
 			{ name: "Clerk", logo: clerklogo },
 			{ name: "Appwrite", logo: appwritelogo },
 			{ name: "Convex", logo: convexlogo },
+			{ name: "Neon", logo: neondblogo },
 			{ name: "Cloudinary", logo: cloudinarylogo },
 		],
 	},

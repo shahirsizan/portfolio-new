@@ -26,7 +26,7 @@ const Navbar = () => {
 	return (
 		<nav
 			className={
-				"fixed top-0 w-full z-50 transition duration-300 px-[5vw] md:px-[8vw] lg:px-[12vw] bg-[#050414]/70  backdrop-blur-md shadow-lg"
+				"fixed top-0 w-full z-50 transition duration-300 px-[5vw] md:px-[8vw] lg:px-[12vw] bg-[#050414]/70 backdrop-blur-md shadow-lg"
 			}
 		>
 			<div className="text-white py-3 flex justify-between items-center">

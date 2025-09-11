@@ -5,7 +5,7 @@ const Education = () => {
 	return (
 		<section
 			id="education"
-			className="pt-16 md:pt-24 pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
+			className="pt-16 md:pt-24 pb-12 lg:pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
 		>
 			{/* TITLE */}
 			<div className="text-center mb-16">
@@ -27,7 +27,7 @@ const Education = () => {
 							className={`w-full p-5 lg:p-10 border border-gray-700 bg-gray-900/70 rounded-2xl shadow-2xl cursor-pointer hover:shadow-purple-500/30`}
 						>
 							<div className="flex items-center space-x-6">
-								<div className="w-24 rounded-md overflow-hidden">
+								<div className="w-20 md:w-24 rounded-md overflow-hidden">
 									<img
 										src={edu.img}
 										className="w-full h-full object-contain"
@@ -36,7 +36,7 @@ const Education = () => {
 
 								<div className="flex flex-col justify-between">
 									<div>
-										<h3 className="text-xl xl:text-2xl font-semibold text-gray-100">
+										<h3 className="text-2xl xl:text-3xl font-semibold text-gray-100">
 											{edu.degree}
 										</h3>
 										<h4 className="text-md xl:text-xl font-semibold text-gray-100">
