@@ -132,8 +132,12 @@ export const education = [
 		school: "CUET, Chattogram",
 		date: "2018 - 2025",
 		grade: "3.10",
-		desc: "Computer Science & Engineering",
+		discipline: "Computer Science & Engineering",
 		degree: "B.Sc. in CSE",
+		"Capstone Project":
+			"Prevention of Gossypiboma, A Deep Learning-based approach",
+		"Project Info":
+			"Developed a deep-learning based application to count surgical gauzes in real-time to prevent Gossypiboma (retained surgical gauzes) during surgical procedures",
 	},
 	{
 		id: 1,
@@ -141,7 +145,7 @@ export const education = [
 		school: "Dhaka College, Dhaka",
 		date: "2015 - 2017",
 		grade: "5.00",
-		desc: "Science",
+		discipline: "Science",
 		degree: "HSC",
 	},
 	{
@@ -150,7 +154,7 @@ export const education = [
 		school: "Government Laboratory High School, Dhaka",
 		date: "2005 - 2015",
 		grade: "5.00",
-		desc: "Science",
+		discipline: "Science",
 		degree: "SSC",
 	},
 ];
