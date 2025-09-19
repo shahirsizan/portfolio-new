@@ -36,7 +36,9 @@ import ibmcertlogo from "./assets/certificates/ibm.png";
 import metacertlogo from "./assets/certificates/meta.png";
 
 // Projects
-import khabarbariimage from "./assets/work_logo/khabar-bari-ss.png";
+import khabarbariimage from "./assets/work_logo/khabarbari/1.png";
+import weatherappimage from "./assets/work_logo/weatherapp/1.png";
+import bgremoverimage from "./assets/work_logo/bgremover/8.png";
 
 export const profilepicObj = {
 	profilepic,
@@ -164,7 +166,7 @@ export const certificates = [
 	{
 		id: 0,
 		img: hkustcertlogo,
-		name: "Software Engineering",
+		name: "Software Engineering (Specialization)",
 		date: "2023",
 		institute: "The Hong Kong University of Science and Technology",
 		link: "https://www.coursera.org/account/accomplishments/specialization/N574PGMHZP6K",
@@ -180,13 +182,21 @@ export const certificates = [
 	{
 		id: 2,
 		img: metacertlogo,
-		name: "HTML and CSS in depth",
+		name: "Introduction to Databases",
 		date: "2024",
 		institute: "Meta",
-		link: "https://www.coursera.org/account/accomplishments/verify/6DA46QCW6UL3",
+		link: "https://www.coursera.org/account/accomplishments/verify/FER9WX7BSNDY",
 	},
 	{
 		id: 3,
+		img: metacertlogo,
+		name: "Introduction to Back-End Development",
+		date: "2024",
+		institute: "Meta",
+		link: "https://www.coursera.org/account/accomplishments/verify/YET43DEGDS2E",
+	},
+	{
+		id: 4,
 		img: metacertlogo,
 		name: "React Basics",
 		date: "2024",
@@ -194,20 +204,12 @@ export const certificates = [
 		link: "https://www.coursera.org/account/accomplishments/verify/6BFM33TRVXVA",
 	},
 	{
-		id: 4,
+		id: 5,
 		img: metacertlogo,
 		name: "Advanced React",
 		date: "2024",
 		institute: "Meta",
 		link: "https://www.coursera.org/account/accomplishments/verify/KUKVFP39SB33",
-	},
-	{
-		id: 5,
-		img: metacertlogo,
-		name: "Introduction to Databases",
-		date: "2024",
-		institute: "Meta",
-		link: "https://www.coursera.org/account/accomplishments/verify/FER9WX7BSNDY",
 	},
 ];
 
@@ -215,17 +217,19 @@ export const projects = [
 	{
 		id: 0,
 		title: "Khabar Bari (Bkash integrated)",
-		description: "Khabar Bari description",
+		description:
+			"Food delivery app with cart functionality and bKash sandbox integration",
 		image: khabarbariimage,
-		tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-		github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-		webapp: "https://githubprofiledetective.netlify.app/",
+		tags: ["MERN", "Tailwind CSS", "bKash"],
+		githubLink:
+			"https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+		liveLink: "https://khabar-bari-frontend.vercel.app/",
 	},
 	{
 		id: 1,
 		title: "Image Background Remover (Bkash integrated)",
 		description: "Image Background Remover description",
-		image: khabarbariimage,
+		image: bgremoverimage,
 		tags: [
 			"React JS",
 			"Node.js",
@@ -235,17 +239,18 @@ export const projects = [
 			"CSS",
 			"JavaScript",
 		],
-		github: "https://github.com/codingmastr/CSPrep",
-		webapp: "https://csprep.netlify.app/",
+		githubLink: "https://github.com/codingmastr/CSPrep",
+		liveLink: "https://csprep.netlify.app/",
 	},
 	{
 		id: 2,
 		title: "Weather App (Vanilla JS)",
 		description: "Weather App (Vanilla JS) description",
-		image: khabarbariimage,
+		image: weatherappimage,
 		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		github: "https://github.com/codingmastr/Movie-Recommendation-App",
-		webapp: "https://movie-recommendation-app-jet.vercel.app/",
+		githubLink:
+			"https://github.com/shahirsizan/khabar-bari-online-food-ordering-app-frontend",
+		liveLink: "https://weather-app-javascript2025.vercel.app/",
 	},
 	{
 		id: 3,
@@ -253,8 +258,8 @@ export const projects = [
 		description: "Weather App (Vanilla JS) description",
 		image: khabarbariimage,
 		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		github: "https://github.com/codingmastr/Movie-Recommendation-App",
-		webapp: "https://movie-recommendation-app-jet.vercel.app/",
+		githubLink: "https://github.com/codingmastr/Movie-Recommendation-App",
+		liveLink: "https://movie-recommendation-app-jet.vercel.app/",
 	},
 	{
 		id: 4,
@@ -262,7 +267,7 @@ export const projects = [
 		description: "Blog App (Microservice architecture) description",
 		image: khabarbariimage,
 		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		github: "https://github.com/codingmastr/Movie-Recommendation-App",
-		webapp: "https://movie-recommendation-app-jet.vercel.app/",
+		githubLink: "https://github.com/codingmastr/Movie-Recommendation-App",
+		liveLink: "https://movie-recommendation-app-jet.vercel.app/",
 	},
 ];

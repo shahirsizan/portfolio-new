@@ -9,7 +9,7 @@ const About = () => {
 			<div className="flex flex-col-reverse md:flex-row items-center">
 				{/* LEFT TEXTS */}
 				<div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-					<h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-white mb-2">
+					<h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-white mb-2 whitespace-nowrap">
 						Hello, I am
 					</h1>
 					<h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 whitespace-nowrap">
@@ -18,20 +18,21 @@ const About = () => {
 
 					<h3 className="text-lg md:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] ">
 						<span className="text-white">
-							A Computer Science graduate with profound interest
-							in{" "}
+							A{" "}
 							<span className="whitespace-nowrap">
-								Full-Stack
+								CS graduate,
 							</span>{" "}
+							Opting for oportunities to leverage my skills in the
+							field of{" "}
 							<span className="whitespace-nowrap">
-								Web Applications
+								Web Application Development
 							</span>{" "}
-							and AI{" "}
+							and learn from experienced professionals.{" "}
 						</span>
 					</h3>
 
 					{/* Resume Button */}
-					<a
+					{/* <a
 						href="https://drive.google.com/file/d/1eSNr3zRzyMEUSbymEB5GUIYSRzhuKvUk/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
@@ -43,10 +44,8 @@ const About = () => {
 								"0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
 						}}
 					>
-						<span className="text-sm md:text-lg">
-							DOWNLOAD RESUME
-						</span>
-					</a>
+						<span className="text-sm md:text-lg">RESUME</span>
+					</a> */}
 				</div>
 
 				{/* RIGHT IMAGE */}
