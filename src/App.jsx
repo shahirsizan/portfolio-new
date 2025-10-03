@@ -14,11 +14,11 @@ function App() {
 			<div className="relative pt-20 text-white">
 				<Navbar />
 				<About />
-				<Skills />
 				<Experience />
+				<Skills />
 				<Project />
-				<Certificates />
 				<Education />
+				<Certificates />
 				<Footer />
 			</div>
 		</div>
