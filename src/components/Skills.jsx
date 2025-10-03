@@ -5,7 +5,7 @@ const Skills = () => {
 	return (
 		<section
 			id="skills"
-			className="md:pt-24 py-8 lg:pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw]"
+			className="md:pt-16 py-8 lg:pb-16 px-[5vw] md:px-[8vw] lg:px-[12vw]"
 		>
 			{/*  TITLE */}
 			<div className="text-center">
@@ -22,24 +22,26 @@ const Skills = () => {
 				{SkillsInfo.map((category) => (
 					<div
 						key={category.title}
-						className="bg-gray-900 px-3 md:px-5 py-6 md:py-10 mb-10 w-full xl:w-[30%] rounded-2xl border border-gray-700 shadow-gray-800 shadow-md"
+						className="CONTAINER bg-gray-900 px-2 md:px-4 py-3 md:py-5 mb-5 w-full rounded-2xl border border-gray-700 shadow-2xl hover:shadow-purple-500/30"
 					>
-						<h3 className="text-2xl lg:text-3xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
+						{/* CONTAINER TITLE */}
+						<h3 className="text-xl lg:text-2xl xl:text-3xl font-semibold text-gray-400 mb-4 text-center">
 							{category.title}
 						</h3>
 
-						{/* SKILLS INNER BOXES */}
-						<div className="grid md:grid-cols-3 xl:grid-cols-1 gap-2 xl:gap-3 w-full">
+						{/* INNER-CONTAINER */}
+						<div className="INNER-CONTAINER grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-2 xl:gap-3 w-full">
 							{category.skills.map((skill) => (
+								// EACH OF THE SKILLS
 								<div
 									key={skill.name}
-									className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
+									className="SKILL flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center shadow-md hover:shadow-purple-500/30 transition-all duration-300"
 								>
 									<img
 										src={skill.logo}
-										className="w-6 h-6 sm:w-8 sm:h-8"
+										className="w-4 h-4 lg:w-5 lg:h-5"
 									/>
-									<span className="text-xs xl:text-[16px] text-gray-300">
+									<span className="max-[400px]:text-sm text-md md:text-[16px] xl:text-[20px] text-gray-300">
 										{skill.name}
 									</span>
 								</div>

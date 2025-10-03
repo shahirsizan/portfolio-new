@@ -35,7 +35,7 @@ const Project = () => {
 					<div
 						key={project.id}
 						onClick={() => handleOpenModal(project)}
-						className="border border-gray-700 bg-gray-900/70 rounded-2xl shadow-2xl cursor-pointer hover:shadow-purple-500/30"
+						className="border border-gray-700 bg-gray-900/70 rounded-2xl shadow-2xl hover:shadow-purple-500/30"
 					>
 						{/* IMAGE */}
 						<div className="p-4 rounded-xl">
@@ -71,9 +71,9 @@ const Project = () => {
 									href={project.githubLink}
 									target="_blank"
 									rel="noopener noreferrer"
-									className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+									className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
 								>
-									View Code
+									Github
 								</a>
 
 								<a
@@ -82,7 +82,7 @@ const Project = () => {
 									rel="noopener noreferrer"
 									className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
 								>
-									View Live
+									Live
 								</a>
 							</div>
 						</div>
@@ -91,11 +91,10 @@ const Project = () => {
 			</div>
 
 			{/* MODAL CONTAINER */}
-			{selectedProject && (
-				<div className="fixed top-0 right-0 bottom-0 left-0 z-50 flex items-center justify-center bg-black/80 p-4">
-					{/* CARD CONTAINER */}
-					<div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
-						{/* CLOSE BUTTON */}
+			{/* {selectedProject && (
+				<div className="MODAL fixed top-0 right-0 bottom-0 left-0 z-50 flex items-center justify-center bg-black/80">
+					
+					<div className="bg-gray-900 rounded-xl shadow-2xl w-[90%] max-w-3xl max-h-7/12 relative">
 						<div className="flex justify-end p-4">
 							<button
 								onClick={() => {
@@ -108,22 +107,19 @@ const Project = () => {
 						</div>
 
 						<div className="flex flex-col">
-							<div className="w-full flex justify-center bg-gray-900 px-4">
+							<div className="w-full flex justify-center bg-gray-900 px-3 ">
 								<img
 									src={selectedProject.image}
-									className="w-[95%] object-contain rounded-xl shadow-2xl"
+									className="w-full object-contain rounded-2xl overflow-hidden shadow-2xl"
 								/>
 							</div>
 
-							<div className="lg:p-8 p-6">
-								<h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+							<div className="lg:p-8 p-6">								<h3 className="text-2xl lg:text-3xl font-bold text-white mb-4 text-md">
 									{selectedProject.title}
 								</h3>
-
 								<p className="text-gray-400 mb-6 lg:text-base text-xs">
 									{selectedProject.description}
 								</p>
-
 								<div className="mb-6">
 									{selectedProject.tags.map((tag, index) => (
 										<span
@@ -137,16 +133,16 @@ const Project = () => {
 
 								<div className="flex gap-4">
 									<a
-										href={selectedProject.github}
+										href={selectedProject.githubLink}
 										target="_blank"
 										rel="noopener noreferrer"
-										className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+										className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
 									>
 										View Code
 									</a>
 
 									<a
-										href={selectedProject.webapp}
+										href={selectedProject.liveLink}
 										target="_blank"
 										rel="noopener noreferrer"
 										className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
@@ -158,7 +154,7 @@ const Project = () => {
 						</div>
 					</div>
 				</div>
-			)}
+			)} */}
 		</section>
 	);
 };
