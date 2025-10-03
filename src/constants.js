@@ -1,27 +1,40 @@
 import profilepic from "./assets/about/bg-removed_IMG_4377.png";
 
+// language
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import typescriptLogo from "./assets/tech_logo/typescript-logo.png";
+
+// frontend
 import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
-import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import shadcnLogo from "./assets/tech_logo/shadcn-logo.png";
 
+// backend
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import appwritelogo from "./assets/tech_logo/appwrite-logo.png";
-import clerklogo from "./assets/tech_logo/clerk-logo.png";
-import convexlogo from "./assets/tech_logo/convex-logo.png";
 import neondblogo from "./assets/tech_logo/neondb-logo.png";
 import cloudinarylogo from "./assets/tech_logo/cloudinary-logo.png";
 
+// auth
+// import clerklogo from "./assets/tech_logo/clerk-logo.png";
+import jwtLogo from "./assets/tech_logo/jwtLogo.png";
+import googleSigninLogo from "./assets/tech_logo/googleSigninLogo.png";
+
+// other
 import gitLogo from "./assets/tech_logo/git.png";
 import postmanLogo from "./assets/tech_logo/postman.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
+import renderLogo from "./assets/tech_logo/renderLogo.jpg";
+
+// payment gateway
+import bkashLogo from "./assets/tech_logo/bkashLogo.png";
 
 // Experience
-import webverseLogo from "./assets/company_logo/webverse_logo.png";
 import thinklogo from "./assets/company_logo/thinklogo.png";
 
 // Education
@@ -38,7 +51,7 @@ import metacertlogo from "./assets/certificates/meta.png";
 // Projects
 import khabarbariimage from "./assets/work_logo/khabarbari/1.png";
 import weatherappimage from "./assets/work_logo/weatherapp/1.png";
-import bgremoverimage from "./assets/work_logo/bgremover/8.png";
+import bgremoverimage from "./assets/work_logo/bgremover/1_2.png";
 
 export const profilepicObj = {
 	profilepic,
@@ -46,14 +59,20 @@ export const profilepicObj = {
 
 export const SkillsInfo = [
 	{
+		title: "Language",
+		skills: [
+			{ name: "JS", logo: javascriptLogo },
+			// { name: "TS", logo: typescriptLogo },
+		],
+	},
+	{
 		title: "Frontend",
 		skills: [
 			{ name: "HTML", logo: htmlLogo },
 			{ name: "CSS", logo: cssLogo },
-			{ name: "JS", logo: javascriptLogo },
 			{ name: "React", logo: reactjsLogo },
-			{ name: "React Native", logo: reactjsLogo },
-			{ name: "Tailwind", logo: tailwindcssLogo },
+			{ name: "Tailwind CSS", logo: tailwindcssLogo },
+			{ name: "Shadcn/ui", logo: shadcnLogo },
 		],
 	},
 	{
@@ -63,19 +82,29 @@ export const SkillsInfo = [
 			{ name: "Express", logo: expressjsLogo },
 			{ name: "Postgres", logo: postgreLogo },
 			{ name: "MongoDB", logo: mongodbLogo },
-			{ name: "Clerk", logo: clerklogo },
 			{ name: "Appwrite", logo: appwritelogo },
-			{ name: "Convex", logo: convexlogo },
-			{ name: "Neon", logo: neondblogo },
+			{ name: "NeonDB", logo: neondblogo },
 			{ name: "Cloudinary", logo: cloudinarylogo },
 		],
 	},
 	{
-		title: "Tools",
+		title: "Auth",
+		skills: [
+			{ name: "JWT", logo: jwtLogo },
+			{ name: "Google Sign-in", logo: googleSigninLogo },
+		],
+	},
+	{
+		title: "Payment Gateway",
+		skills: [{ name: "bKash", logo: bkashLogo }],
+	},
+	{
+		title: "Other",
 		skills: [
 			{ name: "Git", logo: gitLogo },
 			{ name: "Postman", logo: postmanLogo },
 			{ name: "Vercel", logo: vercelLogo },
+			{ name: "Render", logo: renderLogo },
 		],
 	},
 ];
@@ -86,8 +115,8 @@ export const experiences = [
 		img: thinklogo,
 		role: "Industrial Attachment",
 		company: "THiNK Ltd",
-		date: "2022 (Duration: One month)",
-		desc: "Participated in a one-month industrial attachment program at THiNK Ltd. Uttara, fulfilling a requirement as part of my academic curriculum.",
+		date: "2022 (Duration: Three week)",
+		desc: "Participated in a three-week industrial attachment program at THiNK Ltd. Uttara, as part of my academic requirements.",
 		skills: ["Software Development Life Cycle", "Agile Framework"],
 	},
 	// {
@@ -216,40 +245,32 @@ export const certificates = [
 export const projects = [
 	{
 		id: 0,
-		title: "Khabar Bari (Bkash integrated)",
+		title: "Khabar Bari",
 		description:
 			"Food delivery app with cart functionality and bKash sandbox integration",
 		image: khabarbariimage,
 		tags: ["MERN", "Tailwind CSS", "bKash"],
 		githubLink:
-			"https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+			"https://github.com/shahirsizan/khabar-bari-online-food-ordering-app-frontend",
 		liveLink: "https://khabar-bari-frontend.vercel.app/",
 	},
 	{
 		id: 1,
-		title: "Image Background Remover (Bkash integrated)",
+		title: "Background Remover",
 		description: "Image Background Remover description",
 		image: bgremoverimage,
-		tags: [
-			"React JS",
-			"Node.js",
-			"MongoDB",
-			"Express",
-			"HTML",
-			"CSS",
-			"JavaScript",
-		],
-		githubLink: "https://github.com/codingmastr/CSPrep",
-		liveLink: "https://csprep.netlify.app/",
+		tags: ["MERN", "Tailwind CSS", "bKash"],
+		githubLink:
+			"https://github.com/shahirsizan/Image-Background-Remover-App",
+		liveLink: "https://image-background-remover-app.vercel.app/",
 	},
 	{
 		id: 2,
-		title: "Weather App (Vanilla JS)",
+		title: "Weather App",
 		description: "Weather App (Vanilla JS) description",
 		image: weatherappimage,
-		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		githubLink:
-			"https://github.com/shahirsizan/khabar-bari-online-food-ordering-app-frontend",
+		tags: ["HTML", "CSS", "JS", "OpenWeatherMapAPI"],
+		githubLink: "https://github.com/shahirsizan/weatherAppJavascript2025",
 		liveLink: "https://weather-app-javascript2025.vercel.app/",
 	},
 	{
