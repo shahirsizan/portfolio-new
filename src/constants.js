@@ -61,7 +61,7 @@ export const SkillsInfo = [
 	{
 		title: "Language",
 		skills: [
-			{ name: "JS", logo: javascriptLogo },
+			{ name: "JavaScript", logo: javascriptLogo },
 			// { name: "TS", logo: typescriptLogo },
 		],
 	},
@@ -78,13 +78,12 @@ export const SkillsInfo = [
 	{
 		title: "Backend",
 		skills: [
-			{ name: "Node", logo: nodejsLogo },
+			{ name: "Node.js", logo: nodejsLogo },
 			{ name: "Express", logo: expressjsLogo },
-			{ name: "Postgres", logo: postgreLogo },
+			{ name: "PostgreSQL", logo: postgreLogo },
 			{ name: "MongoDB", logo: mongodbLogo },
-			{ name: "Appwrite", logo: appwritelogo },
-			{ name: "NeonDB", logo: neondblogo },
 			{ name: "Cloudinary", logo: cloudinarylogo },
+			{ name: "NeonDB", logo: neondblogo },
 		],
 	},
 	{
