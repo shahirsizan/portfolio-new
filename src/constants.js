@@ -51,7 +51,7 @@ import metacertlogo from "./assets/certificates/meta.png";
 // Projects
 import khabarbariimage from "./assets/work_logo/khabarbari/1.png";
 import weatherappimage from "./assets/work_logo/weatherapp/1.png";
-import bgremoverimage from "./assets/work_logo/bgremover/1_2.png";
+import bgremoverimage from "./assets/work_logo/bgremover/2.png";
 
 export const profilepicObj = {
 	profilepic,
@@ -244,7 +244,7 @@ export const certificates = [
 
 export const projects = [
 	{
-		id: 0,
+		id: "khabarbari",
 		title: "Khabar Bari",
 		description:
 			"Food delivery app with cart functionality and bKash sandbox integration",
@@ -255,7 +255,7 @@ export const projects = [
 		liveLink: "https://khabar-bari-frontend.vercel.app/",
 	},
 	{
-		id: 1,
+		id: "bgremover",
 		title: "Background Remover",
 		description: "Image Background Remover description",
 		image: bgremoverimage,
@@ -265,7 +265,7 @@ export const projects = [
 		liveLink: "https://image-background-remover-app.vercel.app/",
 	},
 	{
-		id: 2,
+		id: "weatherapp",
 		title: "Weather App",
 		description: "Weather App (Vanilla JS) description",
 		image: weatherappimage,
@@ -273,22 +273,14 @@ export const projects = [
 		githubLink: "https://github.com/shahirsizan/weatherAppJavascript2025",
 		liveLink: "https://weather-app-javascript2025.vercel.app/",
 	},
-	{
-		id: 3,
-		title: "Instagram Clone (Basic features) (React Native)",
-		description: "Weather App (Vanilla JS) description",
-		image: khabarbariimage,
-		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		githubLink: "https://github.com/codingmastr/Movie-Recommendation-App",
-		liveLink: "https://movie-recommendation-app-jet.vercel.app/",
-	},
-	{
-		id: 4,
-		title: "Blog App (Microservice architecture)",
-		description: "Blog App (Microservice architecture) description",
-		image: khabarbariimage,
-		tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-		githubLink: "https://github.com/codingmastr/Movie-Recommendation-App",
-		liveLink: "https://movie-recommendation-app-jet.vercel.app/",
-	},
+
+	// {
+	// 	id: "blogapp",
+	// 	title: "Blog App (Microservice architecture)",
+	// 	description: "Blog App (Microservice architecture) description",
+	// 	image: khabarbariimage,
+	// 	tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+	// 	githubLink: "https://github.com/codingmastr/Movie-Recommendation-App",
+	// 	liveLink: "https://movie-recommendation-app-jet.vercel.app/",
+	// },
 ];
