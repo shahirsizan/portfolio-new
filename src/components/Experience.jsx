@@ -5,7 +5,7 @@ const Experience = () => {
 	return (
 		<section
 			id="experience"
-			className="md:pt-24 py-8 lg:pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw] "
+			className="pt-8 md:pt-28 pb-8 md:pb-8 px-[5vw] md:px-[8vw] lg:px-[12vw] "
 		>
 			{/* TITLE */}
 			<div className="text-center mb-16">
@@ -25,7 +25,7 @@ const Experience = () => {
 					<div
 						key={idx}
 						id="content box"
-						className={`w-full xl:col-start-2 p-2 lg:p-4 rounded-2xl border border-gray-700 bg-gray-900 backdrop-blur-md shadow-2xl hover:shadow-purple-500/30`}
+						className={`w-full xl:col-start-2 p-2 lg:p-4 rounded-2xl border border-gray-700 bg-gray-900 backdrop-blur-md shadow-xl hover:shadow-purple-500/30`}
 					>
 						{/* Company Logo, name, role & date */}
 						<div className="flex items-center space-x-5">

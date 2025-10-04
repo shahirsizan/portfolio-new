@@ -9,7 +9,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
 	return (
-		<footer className="py-6 px-[5vw] md:px-[8vw] lg:px-[12vw] text-center">
+		<footer className="text-center py-6 px-[5vw] md:px-[8vw] lg:px-[12vw]">
 			<h2 className="text-xl font-semibold text-purple-500">
 				Shahir Adil Sizan
 			</h2>
@@ -60,8 +60,8 @@ const Footer = () => {
 			</div>
 
 			<p className="text-sm text-gray-400 mt-6">
-				{new Date().getFullYear()} © Shahir Adil Sizan. All rights
-				reserved
+				{new Date().getFullYear()} © Shahir Adil Sizan. <br /> All
+				rights reserved
 			</p>
 		</footer>
 	);

@@ -17,15 +17,6 @@ import {
 	CarouselNext,
 	CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-	Card,
-	CardAction,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-} from "@/components/ui/card";
 
 import khabar1 from "../assets/work_logo/khabarbari/1.png";
 import khabar2 from "../assets/work_logo/khabarbari/2.png";
@@ -73,18 +64,10 @@ const imagesArray = [
 ];
 
 const Project = () => {
-	// const [selectedProject, setSelectedProject] = useState(null);
-	// const handleOpenModal = (project) => {
-	// 	setSelectedProject(project);
-	// };
-	// const handleCloseModal = () => {
-	// 	setSelectedProject(null);
-	// };
-
 	return (
 		<section
 			id="work"
-			className="SECTION pt-16 md:pt-24 pb-24 px-[5vw] md:px-[8vw] lg:px-[12vw] relative"
+			className="SECTION relative pt-8 md:pt-12 pb-8 md:pb-8 px-[5vw] md:px-[8vw] lg:px-[12vw] "
 		>
 			{/* TITLE */}
 			<div className="TITLE text-center mb-16">
@@ -92,9 +75,6 @@ const Project = () => {
 					PROJECTS
 				</h2>
 				<div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
-				<p className="text-gray-400 mt-4 text-lg font-semibold">
-					Some of the hobby projects I have worked on.
-				</p>
 			</div>
 
 			{/* ALL CARDS CONTAINER */}
@@ -110,7 +90,7 @@ const Project = () => {
 						<Dialog>
 							<DialogTrigger asChild>
 								{/* IMAGE */}
-								<div className="p-2 md:p-4 rounded-xl">
+								<div className="p-2 md:p-4 rounded-xl cursor-pointer">
 									<img
 										src={project.image}
 										className="w-full h-48 object-cover rounded-xl overflow-hidden"

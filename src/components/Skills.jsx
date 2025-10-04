@@ -22,7 +22,7 @@ const Skills = () => {
 				{SkillsInfo.map((category) => (
 					<div
 						key={category.title}
-						className="CONTAINER bg-gray-900 px-2 md:px-4 py-3 md:py-5 mb-5 w-full rounded-2xl border border-gray-700 shadow-2xl hover:shadow-purple-500/30"
+						className="CONTAINER bg-gray-900 px-2 md:px-4 py-3 md:py-5 mb-5 w-full rounded-2xl border border-gray-700 shadow-xl hover:shadow-purple-500/30"
 					>
 						{/* CONTAINER TITLE */}
 						<h3 className="text-xl lg:text-2xl xl:text-3xl font-semibold text-gray-400 mb-4 text-center">

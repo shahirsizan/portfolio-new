@@ -4,7 +4,7 @@ const About = () => {
 	return (
 		<section
 			id="about"
-			className="px-[5vw] md:px-[8vw] lg:px-[12vw] md:mt-24 lg:mt-20 py-8 lg:pb-24"
+			className="md:mt-24 lg:mt-20 pb-8 md:pb-8 px-[5vw] md:px-[8vw] lg:px-[12vw]"
 		>
 			<div className="flex flex-col-reverse md:flex-row items-center">
 				{/* LEFT TEXTS */}
