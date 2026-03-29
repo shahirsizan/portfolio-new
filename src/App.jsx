@@ -11,7 +11,7 @@ import Certificates from "./components/Certificates";
 function App() {
 	return (
 		<div className="bg-[#050414]">
-			<div className="relative pt-20 text-white">
+			<div className="relative pt-20 lg:pt-5 text-white">
 				<Navbar />
 				<About />
 				<Experience />
