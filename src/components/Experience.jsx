@@ -38,32 +38,34 @@ const Experience = () => {
 
 							<div className="flex flex-col justify-between">
 								<div>
-									<h3 className="text-xl sm:text-2xl font-semibold text-white">
+									<h3 className="text-lg sm:text-2xl font-semibold text-white">
 										{experience.role}
 									</h3>
 									<h4 className="text-sm sm:text-md text-gray-400">
 										{experience.company}
 									</h4>
 								</div>
-								<p className="text-sm text-gray-500 mt-3">
+								<p className="text-xs text-gray-500 mt-3">
 									{experience.date}
 								</p>
 							</div>
 						</div>
 
 						{/* Description */}
-						<p className="mt-4 text-gray-400">{experience.desc}</p>
+						<p className="mt-4 text-gray-400 text-xs lg:text-lg">
+							{experience.desc}
+						</p>
 
 						{/* Skills gained */}
 						<div className="mt-4">
-							<h5 className="font-medium text-white">
+							<h5 className="font-medium text-white text-sm lg:text-md">
 								Skills Gained:
 							</h5>
 							<ul className="flex flex-wrap mt-2">
 								{experience.skills.map((skill, index) => (
 									<li
 										key={index}
-										className="bg-[#8245ec] text-gray-200 px-2 sm:px-4 py-1 text-xs lg:text-md rounded-lg mr-2 mb-2 border border-gray-400"
+										className="bg-[#8245ec] text-gray-200 px-2 sm:px-4 py-1 text-xs lg:text-sm rounded-lg mr-2 mb-2 border border-gray-400"
 									>
 										{skill}
 									</li>
