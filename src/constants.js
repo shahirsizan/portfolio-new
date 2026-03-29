@@ -118,7 +118,7 @@ export const experiences = [
 		company: "THiNK Ltd",
 		date: "2022 (Duration: Three week)",
 		desc: "Participated in a three-week industrial attachment program at THiNK Ltd. Uttara, as part of my academic requirements.",
-		skills: ["Software Development Life Cycle"],
+		skills: ["Software Development Life Cycle", "Agile Methodologies"],
 	},
 	// {
 	// 	id: 1,
