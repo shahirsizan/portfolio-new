@@ -1,4 +1,5 @@
 import profilepic from "./assets/about/bg-removed_IMG_4377.png";
+import profilepic2 from "./assets/about/myPicture-removebg-preview.png";
 
 // language
 import javascriptLogo from "./assets/tech_logo/javascript.png";
@@ -55,6 +56,7 @@ import bgremoverimage from "./assets/work_logo/bgremover/2.png";
 
 export const profilepicObj = {
 	profilepic,
+	profilepic2,
 };
 
 export const SkillsInfo = [

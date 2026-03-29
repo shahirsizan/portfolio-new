@@ -9,26 +9,29 @@ const About = () => {
 			<div className="flex flex-col-reverse md:flex-row items-center">
 				{/* LEFT TEXTS */}
 				<div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-					<h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-white mb-2 whitespace-nowrap">
+					<h1 className="text-lg md:text-2xl lg:text-3xl text-white mb-2 whitespace-nowrap">
 						Hello, I am
 					</h1>
-					<h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 whitespace-nowrap">
+					<h2 className="text-2xl md:text-4xl lg:text-5xl text-white mb-4 whitespace-nowrap">
 						Shahir Adil Sizan
 					</h2>
 
-					<h3 className="text-lg md:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] ">
-						<span className="text-white">
-							A{" "}
-							<span className="whitespace-nowrap">
-								CS graduate,
-							</span>{" "}
-							Opting for oportunities to leverage my skills in the
-							field of{" "}
-							<span className="whitespace-nowrap">
-								Web Application Development
-							</span>{" "}
-							and learn from experienced professionals.{" "}
-						</span>
+					<h2
+						className="text-sm
+						sm:text-lg
+						lg:text-2xl
+						text-white
+						mb-4
+						whitespace-nowrap"
+					>
+						<span className="text-amber-500">
+							Full-Stack Developer | CUET CSE
+						</span>{" "}
+					</h2>
+
+					<h3 className="text-lg md:text-2xl lg:text-3xl font-semibold mb-4 text-[#8245ec] text-white">
+						Dedicated to building efficient digital experiences and
+						evolving alongside industry-leading engineering teams.
 					</h3>
 
 					{/* Resume Button */}
@@ -51,9 +54,9 @@ const About = () => {
 				{/* RIGHT IMAGE */}
 				<div className="w-full md:w-1/2 flex justify-center md:justify-end">
 					<img
-						src={profilepicObj.profilepic}
+						src={profilepicObj.profilepic2}
 						alt="Shahir Adil Sizan"
-						className="max-md:w-2/3 md:w-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+						className="w-3/5 sm:w-1/3 md:w-2/3 rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
 					/>
 				</div>
 			</div>
