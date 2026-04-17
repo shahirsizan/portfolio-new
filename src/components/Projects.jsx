@@ -122,7 +122,7 @@ const Project = () => {
 															/>
 														</div>
 													</CarouselItem>
-												)
+												),
 											)}
 									</CarouselContent>
 									<CarouselPrevious />

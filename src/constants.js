@@ -3,7 +3,7 @@ import profilepic2 from "./assets/about/myPicture-removebg-preview.png";
 
 // language
 import javascriptLogo from "./assets/tech_logo/javascript.png";
-import typescriptLogo from "./assets/tech_logo/typescript-logo.png";
+import javaLogo from "./assets/tech_logo/java.png";
 
 // frontend
 import htmlLogo from "./assets/tech_logo/html.png";
@@ -17,7 +17,7 @@ import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
-import appwritelogo from "./assets/tech_logo/appwrite-logo.png";
+import redisLogo from "./assets/tech_logo/redis.png";
 import neondblogo from "./assets/tech_logo/neondb-logo.png";
 import cloudinarylogo from "./assets/tech_logo/cloudinary-logo.png";
 
@@ -64,6 +64,7 @@ export const SkillsInfo = [
 		title: "Language",
 		skills: [
 			{ name: "JavaScript", logo: javascriptLogo },
+			{ name: "Java", logo: javaLogo },
 			// { name: "TS", logo: typescriptLogo },
 		],
 	},
@@ -84,17 +85,18 @@ export const SkillsInfo = [
 			{ name: "Express", logo: expressjsLogo },
 			{ name: "PostgreSQL", logo: postgreLogo },
 			{ name: "MongoDB", logo: mongodbLogo },
+			{ name: "Redis", logo: redisLogo },
 			{ name: "Cloudinary", logo: cloudinarylogo },
 			{ name: "NeonDB", logo: neondblogo },
 		],
 	},
-	{
-		title: "Auth",
-		skills: [
-			{ name: "JWT", logo: jwtLogo },
-			{ name: "Google Sign-in", logo: googleSigninLogo },
-		],
-	},
+	// {
+	// 	title: "Auth",
+	// 	skills: [
+	// 		{ name: "JWT", logo: jwtLogo },
+	// 		{ name: "Google Sign-in", logo: googleSigninLogo },
+	// 	],
+	// },
 	{
 		title: "Payment Gateway",
 		skills: [{ name: "bKash", logo: bkashLogo }],

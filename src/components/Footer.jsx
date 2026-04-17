@@ -18,7 +18,7 @@ const Footer = () => {
 				<a
 					href="https://mail.google.com/mail/?view=cm&to=shahir.sizan18@gmail.com"
 					title="shahir.sizan18@gmail.com"
-					className="border p-2 text-md rounded bg-gray-800 text-white "
+					className="border p-2 md:p-5 md:mx-3 texl:md md:text-2xl rounded bg-gray-800 text-white "
 					target="_blank"
 					rel="noopener noreferrer"
 					aria-label="Send email to Sizan"
@@ -27,32 +27,32 @@ const Footer = () => {
 				</a>
 				<a
 					href="https://www.linkedin.com/in/shahir-adil-sizan/"
-					title="Linkedin"
-					className="border p-2 text-md rounded bg-gray-800 text-white "
+					title="LINKEDIN"
+					className="border p-2 md:p-5 md:mx-3 texl:md md:text-2xl rounded bg-gray-800 text-white "
 					target="_blank"
 				>
 					<FaLinkedin />
 				</a>
 				<a
 					href="https://github.com/shahirsizan"
-					title="Github"
-					className="border p-2 text-md rounded bg-gray-800 text-white "
+					title="GITHUB"
+					className="border p-2 md:p-5 md:mx-3 texl:md md:text-2xl rounded bg-gray-800 text-white "
 					target="_blank"
 				>
 					<FaSquareGithub />
 				</a>
 				<a
 					href="https://leetcode.com/u/user8526sJ/"
-					title="Leetcode"
-					className="border p-2 text-md rounded bg-gray-800 text-white "
+					title="LEETCODE"
+					className="border p-2 md:p-5 md:mx-3 texl:md md:text-2xl rounded bg-gray-800 text-white "
 					target="_blank"
 				>
 					<SiLeetcode />
 				</a>
 				<a
 					href="https://codeforces.com/profile/u125"
-					title="Codeforces"
-					className="border p-2 text-md rounded bg-gray-800 text-white "
+					title="CODEFORCES"
+					className="border p-2 md:p-5 md:mx-3 texl:md md:text-2xl rounded bg-gray-800 text-white "
 					target="_blank"
 				>
 					<SiCodeforces />
